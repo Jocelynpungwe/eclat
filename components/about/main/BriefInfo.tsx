@@ -1,7 +1,6 @@
 import React from 'react'
 import AboutImage from '../AboutImage'
 import AboutUs from '../AboutUs'
-import AboutMission from '../AboutMission'
 
 const BriefInfo = () => {
   return (

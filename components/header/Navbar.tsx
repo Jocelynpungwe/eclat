@@ -1,5 +1,5 @@
 import React from 'react'
-import { type NavLinks, navLinks } from '@/utils/links'
+import { navLinks } from '@/utils/links'
 import Link from 'next/link'
 
 const Navbar = () => {

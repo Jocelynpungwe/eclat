@@ -1,7 +1,7 @@
 import React from 'react'
 import { type MissionType } from '../../utils/core'
 
-const Core = ({ id, title, icon, desc }: MissionType) => {
+const Core = ({ title, icon, desc }: MissionType) => {
   return (
     <article className="flip-card">
       <div className="flip-card-inner">

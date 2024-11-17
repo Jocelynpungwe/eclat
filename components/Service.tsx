@@ -1,9 +1,5 @@
 import React from 'react'
-import WhatWeOffer from './service/WhatWeOffer'
-import WhyUs from './service/WhyUs'
 import Commercial from './service/Commercial'
-import Residential from './service/Residential'
-import Premises from './service/Premises'
 import { ourService } from '@/utils/core'
 
 const Service = () => {

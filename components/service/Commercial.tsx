@@ -1,6 +1,4 @@
 import React from 'react'
-import com1 from '@/public/images/com-1.jpg'
-import com2 from '@/public/images/com-2.jpg'
 import Image from 'next/image'
 import { type ServiceType } from '@/utils/core'
 import Link from 'next/link'

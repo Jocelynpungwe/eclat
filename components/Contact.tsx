@@ -10,6 +10,7 @@ type ContactInfo = {
   icon: React.JSX.Element
   title: string
   desc: string
+  descTwo?: string
 }
 
 const Contact = () => {
@@ -24,13 +25,14 @@ const Contact = () => {
       id: 2,
       icon: <PhoneCall />,
       title: 'Phone No',
-      desc: '0788870082',
+      desc: '873 655 2430 EN',
+      descTwo: '873 455 6670 FR',
     },
     {
       id: 3,
       icon: <MapPin />,
       title: 'Address',
-      desc: '71 reu bellehumer',
+      desc: '71 Rue Bellehumeur, Gatineau, QC J8T 6K5',
     },
   ]
 
@@ -48,6 +50,7 @@ const Contact = () => {
                 icon={item.icon}
                 title={item.title}
                 desc={item.desc}
+                descTwo={item.descTwo}
               />
             </div>
           )

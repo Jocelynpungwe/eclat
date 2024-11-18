@@ -57,23 +57,28 @@ const Footer = () => {
                 <MailOpen />
               </span>
               <p className="text-[var(--secondary-color)] text-left">
-                cogebisco@gmail.com
+                Eclatservicecontact@gmail.com
               </p>
             </div>
             <div className="mx-auto w-full grid grid-cols-[auto_1fr] gap-8 justify-center items-center my-4">
               <span className="text-[var(--secondary-color)]">
                 <PhoneCall />
               </span>
-              <p className="text-[var(--secondary-color)] text-left">
-                +243 997 760 547
-              </p>
+              <div>
+                <p className="text-[var(--secondary-color)] text-left">
+                  873 655 2430 EN
+                </p>
+                <p className="text-[var(--secondary-color)] text-left">
+                  873 455 6670 FR
+                </p>
+              </div>
             </div>
             <div className="mx-auto w-full grid grid-cols-[auto_1fr] gap-8 justify-center items-center my-4">
               <span className="text-[var(--secondary-color)]">
                 <MapPin />
               </span>
               <p className="text-[var(--secondary-color)] text-left">
-                71 reu bellehumair, Gatineu,
+                71 Rue Bellehumeur, Gatineau
               </p>
             </div>
           </div>

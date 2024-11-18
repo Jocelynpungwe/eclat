@@ -35,7 +35,7 @@ const Contact = () => {
   ]
 
   return (
-    <section className="container py-[4rem]">
+    <section className="container py-[4rem] md:grid md:grid-cols-2 md:justify-center md:items-center">
       <div className="mb-8">
         <AboutTitle title="Contact Us" desc="Feel Free to get in touch" />
         <p className="mb-8">

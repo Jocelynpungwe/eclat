@@ -3,7 +3,7 @@ import { type MissionType } from '../../utils/core'
 
 const Core = ({ title, icon, desc }: MissionType) => {
   return (
-    <article className="flip-card">
+    <article className="flip-card ">
       <div className="flip-card-inner">
         <div className="flip-card-front flex flex-col">
           <span className="w-[4rem] h-[4rem] grid mx-auto place-items-center rounded-[50%] text-[10rem] text-white bg-black">
@@ -13,8 +13,8 @@ const Core = ({ title, icon, desc }: MissionType) => {
             {title}
           </h3>
         </div>
-        <div className="flip-card-back">
-          <p className="text-white opacity-[0.75]">{desc}</p>
+        <div className="flip-card-back px-4 py-4">
+          <p className="text-white opacity-[0.75] text-[0.8rem]">{desc}</p>
         </div>
       </div>
     </article>

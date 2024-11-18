@@ -12,18 +12,17 @@ const Portfolio = () => {
             title="Service We Offer"
             desc="Clean Sweep, Our before and after"
           />
-          <p className="tracking-[1.5] leading-6 opacity-45  mb-[1rem] ">
-            whether youre a business professional, researcher or industrial
-            expert, our platform is designed with you in mind
+          <p className="tracking-[1.5] leading-6 opacity-45  mb-[1.5rem] ">
+            We offer a wide range of cleaning solutions to meet the unique needs
+            of our residential, office, and commercial clients.
           </p>
         </div>
         <Service />
-        <PortfolioImages />
-
-        <p className="tracking-[1.5] leading-6  mb-[1rem] font-bold text-[1.2rem] text-center uppercase mt-4">
-          whether youre a business professional, researcher or industrial
-          expert, our platform is designed with you in mind
+        <p className="tracking-[1.5] leading-6  my-[1.8rem] font-bold text-[1.2rem] text-center uppercase mt-4">
+          Sweep through our completed projects to get a glimpse of the standard
+          of service we deliver.
         </p>
+        <PortfolioImages />
       </div>
     </section>
   )

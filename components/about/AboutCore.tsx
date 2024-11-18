@@ -4,7 +4,7 @@ import { coreMission } from '../../utils/core'
 import Core from './Core'
 const AboutCore = () => {
   return (
-    <div className="grid grid-cols-1 gap-[1rem] sm:grid-cols-2 md:grid-cols-3 justify-start items-center">
+    <div className="grid grid-cols-1 gap-[0.5rem] md:grid-cols-3 justify-start items-center mb-8">
       {coreMission.map((item) => {
         return (
           <div key={item.id}>

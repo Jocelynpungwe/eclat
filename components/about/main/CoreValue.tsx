@@ -5,17 +5,17 @@ import AboutHistory from '../AboutHistory'
 
 const CoreValue = () => {
   return (
-    <section className="bg-black py-[3rem]">
+    <section className="bg-black py-[4rem]">
       <div className="container">
-        <div className="grid sm:grid-cols-[250px_1fr]">
+        <div className="grid sm:grid-cols-[250px_1fr] sm:gap-4 mb-8">
           <AboutTitle
             title="Our Core Values"
             desc="Navigating our path with integrity"
             textColor="white"
           />
-          <p className="tracking-[1.5] leading-8 opacity-45  mb-[1rem] ">
-            whether youre a business professional, researcher or industrial
-            expert, our platform is designed with you in mind
+          <p className="mt-4 sm:mt-0 text-white tracking-[1.5] leading-8 opacity-45  mb-[1rem] ">
+            Like any successful business, we believe in upholding strong core
+            values that guide our work and shape our commitment to excellence.
           </p>
         </div>
         <AboutCore />

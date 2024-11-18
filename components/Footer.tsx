@@ -15,7 +15,8 @@ const Footer = () => {
             <Logo />
           </div>
           <p className="text-white opacity-45">
-            Empower your style with ECLACT SERVICE - Where fashion meets faith.
+            We’re not just a cleaning company; we’re your partners in creating
+            cleaner, healthier, and more vibrant spaces.
           </p>
         </div>
         <div className="mb-8">

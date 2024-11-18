@@ -4,10 +4,10 @@ import { ourService } from '@/utils/core'
 
 const Service = () => {
   return (
-    <section className="grid gap-8 mb-8">
+    <section className="grid md:grid-cols-[1fr_1fr_1fr] gap-8 my-4 justify-center items-center">
       {ourService.map((item) => {
         return (
-          <div key={item.service}>
+          <div key={item.service} className="w-full h-full">
             <Commercial
               icon={item.icon}
               service={item.service}

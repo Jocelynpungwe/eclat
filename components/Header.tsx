@@ -3,16 +3,24 @@ import Logo from './header/Logo'
 import Navbar from './header/Navbar'
 import HamburgerBtn from './header/HamburgerBtn'
 import ContactBtn from './header/ContactBtn'
+import LogoBig from './header/LogoBig'
 const Header = () => {
   return (
-    <header className=" header-shadow">
-      <div className="flex justify-between py-[2rem] container h-[12vh] items-center ">
-        <Logo />
-        <div className="hidden">
+    <header className="fixed top-0 right-0 z-10 bg-white w-full header-shadow">
+      <div className="flex items-center justify-between py-[2.5rem] mx-auto w-[95%] max-w-[1200px] h-[14vh]">
+        <div className="md:hidden">
+          <Logo />
+        </div>
+        <div className="hidden md:grid">
+          <LogoBig />
+        </div>
+        <div className="hidden md:grid mt-4">
           <Navbar />
         </div>
-        <HamburgerBtn />
-        <div className="hidden">
+        <div className="md:hidden">
+          <HamburgerBtn />
+        </div>
+        <div className="hidden md:grid">
           <ContactBtn />
         </div>
       </div>

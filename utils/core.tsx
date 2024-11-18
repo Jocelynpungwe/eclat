@@ -43,19 +43,19 @@ export const coreMission: MissionType[] = [
     id: 1,
     icon: <Target />,
     title: 'Mission',
-    desc: 'This is a small description',
+    desc: 'To provide exceptional, reliable, and customer-focused cleaning services, ensuring high-quality solutions for apartments, offices, and shopping centers, while always prioritizing client satisfaction and care.',
   },
   {
     id: 2,
     icon: <Eye />,
     title: 'Vision',
-    desc: 'This is a small description',
+    desc: 'To build lasting relationships with our customers based on trust, professionalism, and exceptional service. We aim to be a company that clients rely on for consistent, high-quality cleaning solutions, creating environments that promote well-being and peace of mind.',
   },
   {
     id: 3,
     icon: <Trophy />,
     title: 'Objectives',
-    desc: 'This is a small description',
+    desc: 'Our objective is to provide top-quality cleaning services that exceed expectations, build lasting customer relationships based on trust, and expand our reach across Canada. We are committed to continuous growth and training to maintain the highest industry standards.',
   },
 ]
 
@@ -114,24 +114,26 @@ export type ServiceType = {
   alt: string
 }
 
-import heroImg from '@/public/images/hero-clean.jpg'
+import comImg from '@/public/images/about-serv-1.jpg'
+import resImg from '@/public/images/about-serv-4.jpg'
+import premImg from '@/public/images/about-serv-3.jpg'
 export const ourService: ServiceType[] = [
   {
-    icon: heroImg,
-    service: 'Residential Cleaning',
-    desc: 'we clean all residential',
-    alt: 'the type of image',
-  },
-  {
-    icon: heroImg,
-    service: 'Cleaning of professional premises',
-    desc: 'we clean all professional premises',
-    alt: 'the type of image',
-  },
-  {
-    icon: heroImg,
+    icon: comImg,
     service: 'Commercial Cleaning',
-    desc: 'we clean commercial places',
-    alt: 'the type of image',
+    desc: 'Our skilled team specializes in regular cleaning for commercial spaces such as grocery stores, retail shops, and shopping malls.',
+    alt: 'sanitizer yellow glove with blue sponge and cleaning product',
+  },
+  {
+    icon: resImg,
+    service: 'Residential Cleaning',
+    desc: 'We offer both regular and deep cleaning services for apartments, ensuring every corner of your home is spotless. Our services include cleaning floors, carpets, refrigerators, appliances, toilets, and all living spaces, creating a fresh and inviting environment.',
+    alt: 'blue vacumm cleaner cleaning a white carpet',
+  },
+  {
+    icon: premImg,
+    service: 'Cleaning of professional premises',
+    desc: 'We provide tailored cleaning solutions for offices, embassies, and other professional spaces, offering both regular and deep cleaning services.',
+    alt: 'resturant being cleaned',
   },
 ]

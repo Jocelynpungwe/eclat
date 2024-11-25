@@ -1,17 +1,34 @@
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
+import { Poppins } from 'next/font/google'
+import { Roboto } from 'next/font/google'
+import { Lato } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
+
 import './globals.css'
 import Providers from './providers'
 
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
+const poppins = Poppins({
+  subsets: ['latin'], // Include the appropriate subsets
+  weight: ['400', '600'], // Specify the weights you need
+  variable: '--font-poppins', // Optional: Create a CSS variable for the font
 })
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
+
+const roboto = Roboto({
+  subsets: ['latin'], // Include the appropriate subsets
+  weight: ['400', '500', '700'], // Specify the weights you need
+  variable: '--font-roboto', // Optional: Create a CSS variable for the font
+})
+
+const lato = Lato({
+  subsets: ['latin'], // Include appropriate subsets
+  weight: ['400', '700'], // Specify the weights you need
+  variable: '--font-lato', // Optional: Create a CSS variable for the font
+})
+
+const openSans = Open_Sans({
+  subsets: ['latin'], // Include appropriate subsets
+  weight: ['400', '600', '700'], // Specify the weights you need
+  variable: '--font-open-sans', // Optional: Create a CSS variable for the font
 })
 
 export const metadata: Metadata = {
@@ -28,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppins.variable} ${roboto.variable} ${lato.variable} ${openSans.variable}`}
       >
         <Providers>{children}</Providers>
       </body>

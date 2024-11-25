@@ -1,9 +1,17 @@
 'use client'
 import React from 'react'
 import { Menu } from 'lucide-react'
-
+import { useAppDispatch } from '@/utils/hooks'
+import { openSidebar } from '@/reducer/sidebarSlice'
 const HamburgerBtn = () => {
-  return <Menu className="w-[2.5rem] h-[2.5rem]" />
+  const dispatch = useAppDispatch()
+
+  return (
+    <Menu
+      className="w-[2.5rem] h-[2.5rem]"
+      onClick={() => dispatch(openSidebar())}
+    />
+  )
 }
 
 export default HamburgerBtn

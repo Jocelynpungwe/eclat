@@ -15,13 +15,15 @@ const Commercial = ({ icon, service, desc, alt }: ServiceType) => {
       </div>
 
       <div className="text-center">
-        <h2 className="font-bold text-[1.2rem] mb-[1.5rem]">{service}</h2>
-        <p className="tracking-[1.5] leading-6 opacity-45  mb-[2rem] text-[0.8rem]">
+        <h2 className="font-bold text-[1.2rem] mb-[1.2rem] lg:text-[1.4rem]">
+          {service}
+        </h2>
+        <p className="tracking-[1.5] leading-6 opacity-45  mb-[2rem] text-[0.9rem] lg:text-[1rem]  ">
           {desc}
         </p>
         <Link
           href="/booking"
-          className="py-4 px-8 bg-[var(--secondary-color)] hover:bg-[var(--primary-color)] transition-all duration-300 ease-in-out text-white "
+          className="py-4 px-8 bg-[var(--secondary-color)] hover:bg-[var(--primary-color)] transition-all duration-300 ease-in-out text-white font-semibold text-[1rem] "
         >
           Enquire Now
         </Link>

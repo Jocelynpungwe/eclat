@@ -16,9 +16,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .container {
-  @apply mx-auto w-[90%] max-w-[1200px];
+  @apply mx-auto w-[90%] max-w-[1600px];
 }
 
 .header-shadow {

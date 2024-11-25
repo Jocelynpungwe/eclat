@@ -15,14 +15,14 @@ const AboutTitle = ({ title, desc, textColor }: TitleProps) => {
         <h2
           className={`${
             textColor === 'white' ? 'text-white' : 'text-black'
-          } text-[1.8rem] font-bold capitalize `}
+          } text-[1.8rem] lg:text-[2rem] font-bold capitalize `}
         >
           {title}
         </h2>
         <p
           className={`${
             textColor === 'white' ? 'text-white' : 'text-black opacity-45'
-          } order-[-1] uppercase mb-[0.1rem] text-[1rem]`}
+          } order-[-1] uppercase mb-[0.1rem] text-[1rem] lg:text-[1.2rem]`}
         >
           {desc}
         </p>

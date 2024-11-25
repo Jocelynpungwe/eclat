@@ -8,7 +8,7 @@ const AboutImage = () => {
   return (
     <article className="grid grid-cols-2 grid-rows-[240px_240px] gap-[0.5rem] ">
       <div className="bg-[var(--secondary-color)] text-white font-bold flex items-center justify-start text-left px-[2rem] ">
-        <p>Quality is our priority</p>
+        <p className="lg:text-[1.2rem]">Quality is our priority</p>
       </div>
       <div className="w-[100%] h-[100%]">
         <Image

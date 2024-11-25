@@ -2,10 +2,12 @@ import React from 'react'
 
 const AboutHistory = () => {
   return (
-    <section className=" grid sm:grid-cols-2 justify-center items-center gap-8">
+    <section className=" grid sm:grid-cols-2  gap-8">
       <div className="text-white mt-[2rem] text-left ">
-        <h2 className="font-bold text-[1.8rem] mb-[1rem]">History</h2>
-        <p className="text-[1rem] text-white tracking-[1.5] leading-8 opacity-45 ">
+        <h2 className="font-bold text-[1.8rem] lg:text-[2rem] mb-[1rem]">
+          History
+        </h2>
+        <p className="text-[1rem] lg:text-[1.1rem]  text-white tracking-[1.5] leading-8 opacity-45 ">
           ESN Cleaning Services was founded with the goal of providing reliable
           and high-quality cleaning solutions to residential and commercial
           clients. With a strong focus on customer satisfaction and

@@ -37,10 +37,13 @@ const Contact = () => {
   ]
 
   return (
-    <section className="container py-[4rem] md:grid md:grid-cols-2 md:justify-center md:items-center">
+    <section
+      id="contact"
+      className="container py-[6rem] md:grid md:grid-cols-2 md:justify-center md:items-center"
+    >
       <div className="mb-8">
         <AboutTitle title="Contact Us" desc="Feel Free to get in touch" />
-        <p className="mb-8">
+        <p className="tracking-[1.5] leading-6 opacity-45 text-[1rem] lg:text-[1.2rem] mb-8">
           Feel Free to Reach Out for Assistance or Inquiries
         </p>
         {contactArray.map((item) => {

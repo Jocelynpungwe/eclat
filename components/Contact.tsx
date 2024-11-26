@@ -37,30 +37,29 @@ const Contact = () => {
   ]
 
   return (
-    <section
-      id="contact"
-      className="container py-[6rem] md:grid md:grid-cols-2 md:justify-center md:items-center"
-    >
-      <div className="mb-8">
-        <AboutTitle title="Contact Us" desc="Feel Free to get in touch" />
-        <p className="tracking-[1.5] leading-6 opacity-45 text-[1rem] lg:text-[1.2rem] mb-8">
-          Feel Free to Reach Out for Assistance or Inquiries
-        </p>
-        {contactArray.map((item) => {
-          return (
-            <div key={item.id} className="mb-8">
-              <ContactInfo
-                icon={item.icon}
-                title={item.title}
-                desc={item.desc}
-                descTwo={item.descTwo}
-              />
-            </div>
-          )
-        })}
-      </div>
-      <div>
-        CONTACT FORM FROM MAILCHIMP WILL BE HERE FOR ADVERICING PURPOSES
+    <section id="contact" className="py-[6rem]  bg-blue-50">
+      <div className="container md:grid md:grid-cols-2 md:justify-center md:items-center ">
+        <div className="mb-8">
+          <AboutTitle title="Contact Us" desc="Feel Free to get in touch" />
+          <p className="tracking-[1.5] leading-6 opacity-45 text-[1rem] lg:text-[1.2rem] mb-8">
+            Feel Free to Reach Out for Assistance or Inquiries
+          </p>
+          {contactArray.map((item) => {
+            return (
+              <div key={item.id} className="mb-8">
+                <ContactInfo
+                  icon={item.icon}
+                  title={item.title}
+                  desc={item.desc}
+                  descTwo={item.descTwo}
+                />
+              </div>
+            )
+          })}
+        </div>
+        {/* <div>
+          CONTACT FORM FROM MAILCHIMP WILL BE HERE FOR ADVERICING PURPOSES
+        </div> */}
       </div>
     </section>
   )

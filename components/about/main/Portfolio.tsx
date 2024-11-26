@@ -5,7 +5,7 @@ import Service from '@/components/Service'
 
 const Portfolio = () => {
   return (
-    <section id="service" className="py-[6rem] bg-blue-50">
+    <section id="service" className="py-[6rem] bg-white ">
       <div className="container">
         <div className="grid sm:grid-cols-[250px_1fr] gap-8">
           <AboutTitle

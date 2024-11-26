@@ -29,7 +29,7 @@ const Sidebar = () => {
             <li key={link.id}>
               <Link
                 href={link.link}
-                className="block py-[0.8rem] px-[1.5rem] hover:py-4 hover:px-6 pl-8 text-left font-semibold tracking-wider hover:border-b-[0.15rem] hover:border-[var(--secondary-color)] transition-all ease-in-out duration-300"
+                className="block py-[0.8rem] px-[1.5rem] hover:py-4 hover:px-6 pl-8 text-left font-[500] tracking-wider hover:border-b-[0.15rem] hover:border-[var(--secondary-color)] transition-all ease-in-out duration-300"
                 onClick={() => dispatch(openSidebar())}
               >
                 {link.name}

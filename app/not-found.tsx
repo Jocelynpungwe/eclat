@@ -1,7 +1,5 @@
 // app/not-found.tsx
 import Link from 'next/link'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 import Logo from '@/components/header/Logo'
 export default function NotFound() {
   return (

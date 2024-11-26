@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { navLinks } from '@/utils/links'
 import Logo from './header/Logo'
-import { MapPin } from 'lucide-react'
+// import { MapPin } from 'lucide-react'
 import { PhoneCall } from 'lucide-react'
 import { MailOpen } from 'lucide-react'
 import LogoBig from './header/LogoBig'
@@ -68,14 +68,14 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className=" grid grid-cols-[auto_1fr] gap-8 justify-center items-center my-1">
+            {/* <div className=" grid grid-cols-[auto_1fr] gap-8 justify-center items-center my-1">
               <span className="text-[var(--secondary-color)]">
                 <MapPin />
               </span>
               <p className="text-[var(--secondary-color)] text-left">
                 71 Rue Bellehumeur, Gatineau
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

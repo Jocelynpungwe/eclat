@@ -11,10 +11,10 @@ const ContactBtn = () => {
     //   Get in touch
     // </button>
     <Link
-      href="#contact"
+      href="/booking"
       className="py-[1rem] px-[1.5rem] text-white font-bold bg-[var(--secondary-color)] hover:bg-[var(--primary-color)] uppercase tracking-wider transition-all ease-in-out duration-300 lg:text-[1.2rem]"
     >
-      Get in touch
+      Book Now
     </Link>
   )
 }

@@ -22,10 +22,14 @@ const Commercial = ({ icon, service, desc, alt }: ServiceType) => {
           {desc}
         </p>
         <Link
-          href="/booking"
+          href={`/price#${
+            service.toLowerCase() === 'residential cleaning'
+              ? 'residential'
+              : 'commercial'
+          } `}
           className="py-4 px-8 bg-[var(--secondary-color)] hover:bg-[var(--primary-color)] transition-all duration-300 ease-in-out text-white font-semibold text-[1rem] "
         >
-          Enquire Now
+          View Price
         </Link>
       </div>
     </section>

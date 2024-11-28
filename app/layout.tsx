@@ -6,6 +6,9 @@ import { Open_Sans } from 'next/font/google'
 
 import './globals.css'
 import Providers from './providers'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import Sidebar from '@/components/Sidebar'
 
 const poppins = Poppins({
   subsets: ['latin'], // Include the appropriate subsets
@@ -47,7 +50,12 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${roboto.variable} ${lato.variable} ${openSans.variable}`}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          <Header />
+          <Sidebar />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   )

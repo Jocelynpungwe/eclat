@@ -7,6 +7,7 @@ import Link from 'next/link'
 
 import CloseSidebar from './header/CloseSidebar'
 import Logo from './header/Logo'
+import ContactBtn from './header/ContactBtn'
 
 const Sidebar = () => {
   const { isOpenSidebar } = useAppSelector((store) => store.sidebar)
@@ -38,6 +39,12 @@ const Sidebar = () => {
           )
         })}
       </ul>
+      <div
+        className="flex justify-between items-center py-[1rem] px-[1.5rem] bg-slate-100"
+        onClick={() => dispatch(openSidebar())}
+      >
+        <ContactBtn />
+      </div>
     </aside>
   )
 }

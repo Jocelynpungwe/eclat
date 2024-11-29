@@ -42,7 +42,7 @@ const page = () => {
           />
 
           <Link
-            href="https://clienthub.getjobber.com/client_hubs/44a6a7a5-0f32-415b-ad8e-ed5d4233c4f9/public/work_request/new?source=social_media"
+            href="https://clienthub.getjobber.com/client_hubs/44a6a7a5-0f32-415b-ad8e-ed5d4233c4f9/login/new?source=share_login"
             className="text-center py-[1rem] px-[1.5rem] text-white font-bold bg-[var(--secondary-color)] hover:bg-[var(--primary-color)] uppercase tracking-wider transition-all ease-in-out duration-300 lg:text-[1.2rem]"
           >
             Login
@@ -51,7 +51,7 @@ const page = () => {
         <div className="flex flex-col gap-6 header-shadow justify-between  py-4 px-4">
           <AboutTitle title="Bookings" desc="Book a direct appointment  " />
           <Link
-            href="https://clienthub.getjobber.com/client_hubs/44a6a7a5-0f32-415b-ad8e-ed5d4233c4f9/public/work_request/new?source=social_media"
+            href="https://clienthub.getjobber.com/booking/b320892b-cffa-48a2-9bf7-2eef827132f8"
             className="text-center py-[1rem] px-[1.5rem] text-white font-bold bg-[var(--secondary-color)] hover:bg-[var(--primary-color)] uppercase tracking-wider transition-all ease-in-out duration-300 lg:text-[1.2rem]"
           >
             Booking Now
@@ -64,7 +64,7 @@ const page = () => {
             href="https://clienthub.getjobber.com/client_hubs/44a6a7a5-0f32-415b-ad8e-ed5d4233c4f9/public/work_request/new?source=social_media"
             className="text-center py-[1rem] px-[1.5rem] text-white font-bold bg-[var(--secondary-color)] hover:bg-[var(--primary-color)] uppercase tracking-wider transition-all ease-in-out duration-300 lg:text-[1.2rem]"
           >
-            Free Quote
+            Get Free Quote
           </Link>
         </div>
       </section>

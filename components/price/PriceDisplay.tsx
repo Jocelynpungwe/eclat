@@ -52,7 +52,7 @@ const PriceDisplay = ({ title, price, desc, list }: PriceType) => {
         href="https://clienthub.getjobber.com/client_hubs/44a6a7a5-0f32-415b-ad8e-ed5d4233c4f9/public/work_request/new?source=social_media"
         className="py-[1rem] px-[1.5rem] text-white font-bold bg-[var(--secondary-color)] hover:bg-[var(--primary-color)] uppercase tracking-wider transition-all ease-in-out duration-300 lg:text-[1.2rem]"
       >
-        Get in touch
+        Book Now
       </Link>
     </article>
   )

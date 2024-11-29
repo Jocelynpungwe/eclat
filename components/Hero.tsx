@@ -21,7 +21,7 @@ const Hero = () => {
           href="/booking"
           className="md:text-[1.5rem] bg-transparent hover:bg-black transition-all duration-300 ease-in-out border-blue-50 border-[1px] border-solid py-[1rem] px-[1.5rem] inline-block"
         >
-          Free Quote
+          Get Free Quote
         </Link>
       </article>
     </section>

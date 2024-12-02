@@ -4,7 +4,7 @@ import { MapPin } from 'lucide-react'
 import { PhoneCall } from 'lucide-react'
 import { MailOpen } from 'lucide-react'
 import ContactInfo from './contact/ContactInfo'
-
+import ContactForm from './contact/ContactForm'
 type ContactInfo = {
   id: number
   icon: React.JSX.Element
@@ -37,7 +37,7 @@ const Contact = () => {
   ]
 
   return (
-    <section id="contact" className="py-[6rem]  bg-blue-50">
+    <section id="contact" className="py-[6rem]  bg-gray-200">
       <div className="container md:grid md:grid-cols-2 md:justify-center md:items-center ">
         <div className="mb-8">
           <AboutTitle title="Contact Us" desc="Feel Free to get in touch" />
@@ -57,9 +57,9 @@ const Contact = () => {
             )
           })}
         </div>
-        {/* <div>
-          CONTACT FORM FROM MAILCHIMP WILL BE HERE FOR ADVERICING PURPOSES
-        </div> */}
+        <div>
+          <ContactForm />
+        </div>
       </div>
     </section>
   )

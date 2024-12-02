@@ -88,22 +88,22 @@ export type PortfolioImgType = {
 
 export const porfolioImg: PortfolioImgType[] = [
   { id: 0, image: [com1, com2, com3] },
-  { id: 1, image: [floor1, floor2, floor3] },
   {
-    id: 2,
-    image: [kitchen1, kitchen2, kitchen3, kitchen4, kitchen5, kitchen6],
-  },
-  {
-    id: 3,
-    image: [shower1, shower2],
+    id: 1,
+    image: [work1, work2, work3, work4, work6],
   },
   {
     id: 4,
-    image: [toilet1, toilet2],
+    image: [shower1, shower2],
   },
   {
     id: 5,
-    image: [work1, work2, work3, work4, work6],
+    image: [toilet1, toilet2],
+  },
+  { id: 2, image: [floor1, floor2, floor3] },
+  {
+    id: 3,
+    image: [kitchen1, kitchen2, kitchen3, kitchen4, kitchen5, kitchen6],
   },
 ]
 

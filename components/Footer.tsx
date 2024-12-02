@@ -5,6 +5,8 @@ import Logo from './header/Logo'
 // import { MapPin } from 'lucide-react'
 import { PhoneCall } from 'lucide-react'
 import { MailOpen } from 'lucide-react'
+import { Instagram } from 'lucide-react'
+import { Facebook } from 'lucide-react'
 import LogoBig from './header/LogoBig'
 
 const Footer = () => {
@@ -66,6 +68,52 @@ const Footer = () => {
                 <p className="text-[var(--secondary-color)] text-left">
                   873 455 6670 FR
                 </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-[auto_1fr] gap-8 justify-center items-center my-1">
+              <div>
+                <Link
+                  href="https://www.instagram.com/eclatservicedenettoyage/"
+                  className="text-[var(--secondary-color)] text-4 capitalize tracking-wider"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-instagram"
+                  >
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                  </svg>
+                </Link>
+              </div>
+              <div>
+                <Link
+                  href="https://www.facebook.com/profile.php?id=61569705604156"
+                  className="text-[var(--secondary-color)] text-4 capitalize tracking-wider"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-facebook"
+                  >
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                  </svg>
+                </Link>
               </div>
             </div>
             {/* <div className=" grid grid-cols-[auto_1fr] gap-8 justify-center items-center my-1">

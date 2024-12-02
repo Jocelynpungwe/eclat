@@ -5,8 +5,6 @@ import Logo from './header/Logo'
 // import { MapPin } from 'lucide-react'
 import { PhoneCall } from 'lucide-react'
 import { MailOpen } from 'lucide-react'
-import { Instagram } from 'lucide-react'
-import { Facebook } from 'lucide-react'
 import LogoBig from './header/LogoBig'
 
 const Footer = () => {

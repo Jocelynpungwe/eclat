@@ -7,7 +7,7 @@ const AboutHistory = () => {
         <h2 className="font-bold text-[1.8rem] lg:text-[2rem] mb-[1rem]">
           History
         </h2>
-        <p className="text-[1rem] lg:text-[1.1rem]  text-white tracking-[1.5] leading-8 opacity-45 ">
+        <p className=" text-white tracking-[1.5] leading-8 opacity-45 ">
           ESN Cleaning Services was founded with the goal of providing reliable
           and high-quality cleaning solutions to residential and commercial
           clients. With a strong focus on customer satisfaction and

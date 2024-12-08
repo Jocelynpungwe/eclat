@@ -10,14 +10,14 @@ const AboutUs = () => {
           <BookOpenCheck className="text-[var(--secondary-color)] w-[80px] h-[80px] lg:w-[100px] lg:h-[100px]" />
         </div>
         <div className="flex items-center justify-center">
-          <p className="font-semibold tracking-[1.5] lg:leading-6 leading-4 mb-[0.5rem] lg:text-[1.2rem] ">
+          <p className="font-semibold tracking-[1.5] leading-[1.5]  mb-[0.5rem] ">
             Eclat Services de Nettoyage, a trusted name in professional cleaning
             solutions for apartments, shopping centers, and offices across the
             Gatineau and Ottawa region.
           </p>
         </div>
       </div>
-      <p className="tracking-[1.5] leading-8 opacity-45  mb-[1rem] lg:text-[1.2rem]">
+      <p className="tracking-[1.5] leading-8 opacity-45  mb-[1rem]">
         Our company is built on a foundation of excellence, dedication, and
         attention to detail, ensuring that every space we clean is left spotless
         and inviting. Whether it’s a cozy apartment, a commercial center, or a

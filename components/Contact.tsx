@@ -32,7 +32,7 @@ const Contact = () => {
       id: 3,
       icon: <MapPin />,
       title: 'Address',
-      desc: '71 Rue Bellehumeur, Gatineau, QC J8T 6K5',
+      desc: 'Gatineau',
     },
   ]
 
@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="container md:grid md:grid-cols-2 md:justify-center md:items-center ">
         <div className="mb-8">
           <AboutTitle title="Contact Us" desc="Feel Free to get in touch" />
-          <p className="tracking-[1.5] leading-6 opacity-45 text-[1rem] lg:text-[1.2rem] mb-8">
+          <p className="tracking-[1.5] leading-6 opacity-45 mb-8">
             Feel Free to Reach Out for Assistance or Inquiries
           </p>
           {contactArray.map((item) => {

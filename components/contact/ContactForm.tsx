@@ -8,6 +8,7 @@ type ContactFormState = {
   email: string
   subject: string
   message: string
+  isLoading: boolean
 }
 
 const ContactForm = () => {
@@ -16,6 +17,7 @@ const ContactForm = () => {
     email: '',
     subject: '',
     message: '',
+    isLoading: false,
   }
 
   const [contactUs, setContactUs] = useState<ContactFormState>(initialState)
@@ -39,6 +41,11 @@ const ContactForm = () => {
 
     if (!form.current) return
 
+    setContactUs((prevData) => ({
+      ...prevData,
+      isLoading: true,
+    }))
+
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID || '', // Ensure environment variables are defined
@@ -48,16 +55,10 @@ const ContactForm = () => {
       )
       .then(
         () => {
-          console.log('SUCCESS!')
           setContactUs(initialState)
         },
         (error) => {
           console.log('FAILED...', error.text)
-          console.log(
-            process.env.REACT_APP_SERVICE_ID,
-            process.env.REACT_APP_PUBLIC,
-            process.env.REACT_APP_EMAIL_TEMPLATE
-          )
         }
       )
   }
@@ -145,8 +146,9 @@ const ContactForm = () => {
       <button
         type="submit"
         className="w-full px-4 py-2 text-white bg-[var(--secondary-color)] hover:bg-[var(--primary-color)] transition-all ease-in-out duration-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+        disabled={contactUs.isLoading}
       >
-        Send Message
+        {contactUs.isLoading ? 'Loading...' : 'Send Message'}
       </button>
     </form>
   )

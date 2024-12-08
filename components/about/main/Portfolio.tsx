@@ -13,7 +13,7 @@ const Portfolio = () => {
             desc="Clean Sweep, Our before and after"
           />
           <div className="flex items-center justify-center">
-            <p className="tracking-[1.5] leading-6 opacity-45  mb-[1.5rem] lg:text-[1.2rem] ">
+            <p className="tracking-[1.5] leading-6 opacity-45  mb-[1.5rem] ">
               We offer a wide range of cleaning solutions to meet the unique
               needs of our residential, office, and commercial clients.
             </p>

@@ -14,7 +14,7 @@ const CoreValue = () => {
             textColor="white"
           />
           <div className="flex items-center justify-center">
-            <p className="mt-4 sm:mt-0 text-white tracking-[1.5] leading-8 opacity-45  mb-[1rem] lg:text-[1.1rem] ">
+            <p className="mt-4 sm:mt-0 text-white tracking-[1.5] leading-8 opacity-45  mb-[1rem] ">
               Like any successful business, we believe in upholding strong core
               values that guide our work and shape our commitment to excellence.
             </p>

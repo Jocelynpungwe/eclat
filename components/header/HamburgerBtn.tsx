@@ -8,7 +8,7 @@ const HamburgerBtn = () => {
 
   return (
     <Menu
-      className="w-[2.5rem] h-[2.5rem]"
+      className="w-[2.5rem] h-[2.5rem] cursor-pointer"
       onClick={() => dispatch(openSidebar())}
     />
   )

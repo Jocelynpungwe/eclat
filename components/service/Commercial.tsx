@@ -18,7 +18,7 @@ const Commercial = ({ icon, service, desc, alt }: ServiceType) => {
         <h2 className="font-bold text-[1.2rem] mb-[1.2rem] lg:text-[1.4rem]">
           {service}
         </h2>
-        <p className="tracking-[1.5] leading-6 opacity-45  mb-[2rem] text-[0.9rem] lg:text-[1rem]  ">
+        <p className="tracking-[1.5] leading-6 opacity-45  mb-[2rem] ">
           {desc}
         </p>
         <Link
